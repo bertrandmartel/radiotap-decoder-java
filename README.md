@@ -12,7 +12,7 @@ Following field will be implemented later:
 
 <hr/>
 
-USAGE
+<b>USAGE</b>
 
 The following usage show how to parse a pcapng file (from Wireshark) that contains Packet with Radiotap headers.
 
@@ -24,9 +24,9 @@ You dont have to take the jar to you it is already in lib folder
 
 <hr/>
 
-COMMAND LINE SYNTAX : 
+<b>COMMAND LINE SYNTAX</b> 
 
-<b>java -cp ../lib/pcapngdecoder-1.0.jar:radiotapdecoder-1.0.jar  fr.bmartel.radiotapdecoder.main.DecodeMain -f ../radiotap_file/exemple.pcapng  -v</b>
+java -cp ../lib/pcapngdecoder-1.0.jar:radiotapdecoder-1.0.jar  fr.bmartel.radiotapdecoder.main.DecodeMain -f ../radiotap_file/exemple.pcapng  -v
 
 -f <file.pcapng> : input file
 
@@ -36,7 +36,7 @@ This exemple is launched from release folder
 
 <hr/>
 
-PROGRAM SYNTAX :
+<b>PROGRAM SYNTAX</b>
 
 ``byte[] radioTapData = packet.getPacketData();``
 
