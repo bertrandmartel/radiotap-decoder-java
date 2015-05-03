@@ -1,4 +1,6 @@
-# Radiotap Parser in Java #
+# Radiotap Decoder in Java #
+
+http://akinaru.github.io/radiotap-decoder-java/
 
 <i>Last update 04/05/2015</i>
 
