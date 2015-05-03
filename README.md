@@ -48,7 +48,7 @@ Go check ``fr.bmartel.protocol.radiotap.inter.IRadiotapFlags`` interface to see 
 
 ``radioTap.getRadioTapFlagList().getRadioTapData()`` will give you all the data you can grab according to flags above.
 
-Go check ``fr.bmartel.protocol.radiotap.inter`` to see all data available.
+Go check ``fr.bmartel.protocol.radiotap.inter.IRadiotapData`` to see all data available.
 
 <hr/>
 

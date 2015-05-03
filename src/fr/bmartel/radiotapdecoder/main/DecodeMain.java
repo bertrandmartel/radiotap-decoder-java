@@ -37,6 +37,43 @@ import fr.bmartel.protocol.radiotap.inter.IRadioTapFrame;
 import fr.bmartel.utils.RadioTapException;
 
 /**
+ * @mainpage  PCAP NG JAVA File parser
+ *
+ * <b>COMMAND LINE SYNTAX</b> 
+
+java -cp ../lib/pcapngdecoder-1.0.jar:radiotapdecoder-1.0.jar  fr.bmartel.radiotapdecoder.main.DecodeMain -f ../radiotap_file/exemple.pcapng  -v
+
+-f <file.pcapng> : input file
+
+-v               : verbose, will show all section parsing content
+
+This exemple is launched from release folder
+
+<hr/>
+
+<b>PROGRAM SYNTAX</b>
+
+``byte[] radioTapData = packet.getPacketData();``
+
+``RadioTap radioTap = new RadioTap(radioTapData);``
+
+You can then look at all fields that are in the radiotap data with ``radioTap.getRadioTapFlagList()``
+
+Go check ``fr.bmartel.protocol.radiotap.inter.IRadiotapFlags`` interface to see all list.
+
+``radioTap.getRadioTapFlagList().getRadioTapData()`` will give you all the data you can grab according to flags above.
+
+Go check ``fr.bmartel.protocol.radiotap.inter.IRadiotapData`` to see all data available.
+
+<hr/>
+
+* Project is JRE 1.7 compliant
+* You can build it with ant => build.xml
+* Development on Eclipse 
+* Specification from http://www.radiotap.org
+* 
+ */
+/**
  * <b>Main function for Radiotap decoder frame</b>
  * 
  * <p>Specifications can be found on http://www.radiotap.org/</p>
