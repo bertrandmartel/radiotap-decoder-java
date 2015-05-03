@@ -28,7 +28,7 @@ You dont have to take the jar to you it is already in lib folder
 
 <b>COMMAND LINE SYNTAX</b> 
 
-java -cp ../lib/pcapngdecoder-1.0.jar:radiotapdecoder-1.0.jar  fr.bmartel.radiotapdecoder.main.DecodeMain -f ../radiotap_file/exemple.pcapng  -v
+``java -cp ../lib/pcapngdecoder-1.0.jar:radiotapdecoder-1.0.jar  fr.bmartel.radiotapdecoder.main.DecodeMain -f ../radiotap_file/exemple.pcapng  -v``
 
 -f <file.pcapng> : input file
 
