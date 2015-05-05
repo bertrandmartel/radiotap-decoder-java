@@ -54,6 +54,29 @@ Go check ``fr.bmartel.protocol.radiotap.inter.IRadiotapData`` to see all data av
 
 <hr/>
 
+<b>Output Example</b>
+
+###############################################################################################<br/>
+RadioTap Version : 0<br/>
+RadioTap length  : 18<br/>
+RadioTap data    : <br/>
+	flags                : 16<br/>
+	data rate            : 1000kbps<br/><br/>
+	ant signal in dbm    : -62 dbm<br/>
+	antenna              : 7 (unitless) (indication of the Rx/Tx antenna for this packet. The first antenna is antenna<br/> 0)
+	PLCP CRC error       : false<br/>
+		channel number         : 12<br/>
+		frequency used         : 2467MHz<br/>
+		CCK channel            : true<br/>
+		DYNAMIC CCK channel    : false<br/>
+		GFSK channel           : false<br/>
+		OFDM channel           : false<br/>
+		only passive scan      : false<br/>
+		spectrum channel 2GHZ  : true<br/>
+		spectrum channel 5GHZ  : false<br/>
+		turbo channel          : false<br/>
+###############################################################################################<br/>
+<hr/>
 * Project is JRE 1.7 compliant
 * You can build it with ant => build.xml
 * Development on Eclipse 
