@@ -63,7 +63,7 @@ RadioTap data    : <br/>
 	flags                : 16<br/>
 	data rate            : 1000kbps<br/><br/>
 	ant signal in dbm    : -62 dbm<br/>
-	antenna              : 7 (unitless) (indication of the Rx/Tx antenna for this packet)
+	antenna              : 7 (unitless) (indication of the Rx/Tx antenna for this packet)<br/>
 	PLCP CRC error       : false<br/>
 		channel number         : 12<br/>
 		frequency used         : 2467MHz<br/>
