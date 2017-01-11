@@ -1,6 +1,6 @@
 # Radiotap Decoder in Java #
 
-http://akinaru.github.io/radiotap-decoder-java/
+http://bertrandmartel.github.io/radiotap-decoder-java/
 
 <i>Last update 04/05/2015</i>
 
@@ -20,7 +20,7 @@ The following usage show how to parse a pcapng file (from Wireshark) that contai
 
 You can use 
 * the jnetpcap library 
-* my own lib in http://akinaru.github.io/pcapng-decoder-java/ (pcapng-decoder-java)
+* my own lib in http://bertrandmartel.github.io/pcapng-decoder-java/ (pcapng-decoder-java)
 
 You dont have to take the jar to you it is already in lib folder
 
